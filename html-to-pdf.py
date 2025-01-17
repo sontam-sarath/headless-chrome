@@ -27,7 +27,7 @@ driver.get(url)
 # time.sleep(5)
 
 # Use Chrome DevTools Protocol to save the page as a PDF
-file_path = "C:/Users/ssontam/Desktop/ssontam/headless-chrome/ss.pdf"
+file_path = "./ss.pdf"
 print_options = {
     "paperWidth": 8.5,
     "paperHeight": 11,
