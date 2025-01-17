@@ -19,7 +19,7 @@ driver = webdriver.Chrome(service=service, options=chrome_options)
 
 # URL to the page you want to save as PDF
 url = 'https://sontam-sarath.github.io/portfolio/'
-
+url = 'https://ssontam-reports.dev.sofvie.net/target_status_summary?report_filter_unique_code=6662ab01-9f73-485a-89c0-0eb266bb9f47&lang=1&guest=true'
 # Open the page in the headless browser
 driver.get(url)
 
@@ -27,7 +27,7 @@ driver.get(url)
 # time.sleep(5)
 
 # Use Chrome DevTools Protocol to save the page as a PDF
-file_path = "./ss.pdf"
+file_path = "./report1.pdf"
 print_options = {
     "paperWidth": 8.5,
     "paperHeight": 11,
